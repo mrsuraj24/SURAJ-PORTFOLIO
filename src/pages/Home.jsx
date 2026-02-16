@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Home() {
     return (
         <>
@@ -24,13 +26,13 @@ export default function Home() {
 
                     {/* Buttons */}
                     <div className="mt-8 flex gap-4">
-                        <button className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
+                        <NavLink to={"/contact"} className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
                             Get Started
-                        </button>
-                        <button className="border bg-indigo-600  border-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-500 transition">
+                        </NavLink>
+                        <NavLink to={"/projects"} className="border bg-indigo-600  border-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-500 transition">
 
                             View Projects
-                        </button>
+                        </NavLink>
                         <a href="https://wa.me/917376731077" target="_blank" className="border bg-indigo-600  border-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-500 transition" >
                             Contact on WhatsApp
                         </a>

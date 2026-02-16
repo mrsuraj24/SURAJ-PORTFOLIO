@@ -18,7 +18,7 @@ export default function About() {
                         <img
                             src="./image.png"
                             alt="About"
-                            className="w-[340px] rounded-3xl shadow-xl"
+                            className="w-85 rounded-3xl shadow-xl"
                         />
                     </div>
 

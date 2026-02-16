@@ -16,7 +16,7 @@ function Navbar() {
 
                 {/* Logo */}
                 <NavLink to="/" onClick={() => setMenuOpen(false)}>
-                    <img src="itlogo3.png" alt="IT" className="h-11 w-15" />
+                    <img src="public\favico.png" alt="IT" className="h-11 w-15" />
                 </NavLink>
 
                 {/* Desktop Links */}
@@ -40,7 +40,7 @@ function Navbar() {
                 {/* Desktop Contact */}
                 <NavLink
                     to="/contact"
-                    className="hidden sm:inline-block bg-indigo-600 text-white px-6 py-2.5 rounded-full hover:bg-indigo-700 transition shadow"
+                    className="hidden sm:inline-block bg-indigo-600/10 text-white px-6 py-2.5 rounded-full hover:bg-indigo-700/70 transition shadow"
                 >
                     Contact Me
                 </NavLink>
@@ -73,11 +73,10 @@ function Navbar() {
                                 {item.name}
                             </NavLink>
                         ))}
-
                         <NavLink
                             to="/contact"
                             onClick={() => setMenuOpen(false)}
-                            className="mt-2 bg-white text-indigo-700 text-center px-4 py-2 rounded-lg font-semibold"
+                            className="mt-2 bg-blue-700/20 hover:bg-blue-700/70 text-white text-center px-4 py-2 rounded-lg font-semibold"
                         >
                             Contact Me
                         </NavLink>

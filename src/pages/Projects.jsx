@@ -38,7 +38,7 @@ export default function Projects() {
                 "Includes donor registration, blood stock tracking, request approval, and secure backend APIs.",
             tech: ["React", "Node.js", "MongoDB"],
             image:
-                "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+                "./public/ems.png",
             github: "#",
             demo: "#",
         },
@@ -51,7 +51,7 @@ export default function Projects() {
                 "Includes donor registration, blood stock tracking, request approval, and secure backend APIs.",
             tech: ["React", "Node.js", "MongoDB"],
             image:
-                "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+                "./public/lms.png",
             github: "#",
             demo: "#",
         },
