@@ -16,7 +16,7 @@ export default function About() {
 
                     <div className="flex justify-center">
                         <img
-                            src="./image.png"
+                            src="public\Images\image.png"
                             alt="About"
                             className="w-85 rounded-3xl shadow-xl"
                         />
@@ -51,7 +51,7 @@ export default function About() {
                         {/* Buttons */}
                         <div className="mt-8 flex gap-4">
                             <a
-                                href="/image.png"
+                                href="public\Images\image.png"
                                 className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition"
                             >
                                 Download CV

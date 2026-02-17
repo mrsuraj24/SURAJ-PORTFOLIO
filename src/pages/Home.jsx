@@ -58,7 +58,7 @@ export default function Home() {
                 {/* Right Illustration */}
                 <div className="relative flex justify-center">
                     <img
-                        src="./image.png"
+                        src="public\Images\image.png"
                         alt="profile"
                         className=" w-full max-w-md rounded-2xl shadow-xl"
                     />
