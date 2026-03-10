@@ -51,7 +51,7 @@ export default function About() {
                         {/* Buttons */}
                         <div className="mt-8 flex gap-4">
                             <a
-                                href="public\Images\image.png"
+                                href="/Images/image.png"
                                 className="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition"
                             >
                                 Download CV
