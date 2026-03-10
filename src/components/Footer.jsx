@@ -62,9 +62,9 @@ export default function Footer() {
                             Contact
                         </h3>
                         <ul className="space-y-3 text-gray-400">
-                            <li>Email:s24technologies@gmail.com</li>
+                            <li>Email : suraj24tech@gmail.com</li>
                             <li>Phone : +91 7376731077</li>
-                            <li>Location: Uttar Pradesh, India</li>
+                            <li>Location : Uttar Pradesh, India</li>
                             <li>Open for internships & freelance</li>
                         </ul>
                     </div>

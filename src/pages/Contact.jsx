@@ -29,7 +29,7 @@ export default function Contact() {
                         <div className="space-y-5 text-gray-700">
                             <p>
                                 <span className="font-bold">Email:</span>{" "}
-                                s24-technologies@gmail.com
+                                suraj24tech@gmail.com
                             </p>
                             <p>
                                 <span className="font-bold">Location:</span>{" "}

@@ -16,7 +16,7 @@ function Navbar() {
 
                 {/* Logo */}
                 <NavLink to="/" onClick={() => setMenuOpen(false)}>
-                    <img src="public\Images\favico.png" alt="IT" className="h-11 w-15" />
+                    <img src="/Images/favico.png" alt="IT" className="h-11 w-15" />
                 </NavLink>
 
                 {/* Desktop Links */}

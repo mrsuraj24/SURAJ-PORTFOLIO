@@ -5,7 +5,7 @@ export default function Home() {
         <>
             <section className="max-w-full mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 bg-gray-300/40 items-center">
                 {/* Left Content */}
-                <div>
+                <div className="p-7">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
                         Hi, I’m Suraj Vishwakarma <br />
                         <span className="text-indigo-600 dark:text-indigo-400">
@@ -58,7 +58,7 @@ export default function Home() {
                 {/* Right Illustration */}
                 <div className="relative flex justify-center">
                     <img
-                        src="public\Images\image.png"
+                        src="/Images/image.png"
                         alt="profile"
                         className=" w-full max-w-md rounded-2xl shadow-xl"
                     />
